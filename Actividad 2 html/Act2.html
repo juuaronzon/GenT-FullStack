@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla y Formulario</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+</head>
+<body>
+<BR>
+    <h1>SUPLEMENT STORE ARGENTINA</h1> </BR></BR></BR>
+    
+    <table style="font-size: small" class="table table-bordered">
+        <th>Nombre del producto</th>
+        <th>Informacion tecnica</th>
+        <th>Caracteristicas</th>
+        <th>Beneficios, comentarios y recomendaciones</th>
+
+        <tr>
+            <td>Proteina en polvo</td>
+            <td><ul>
+                <li>Fuente de proteína de rápida absorción</li>
+                <li>Generalmente derivada de la leche (suero de leche) o de la soja.</li>
+              </ul></td>
+            <td><ul>
+                <li>Se puede consumir en batidos o mezclada con otros alimentos. </li>
+                <li>Viene en diferentes sabores y niveles de pureza.</li>
+              </ul></td>
+            <td><ol>
+                <li>Aumenta la síntesis de proteínas y promueve la recuperación muscular después del ejercicio.</li>
+                <li>Puede ayudar en la pérdida de peso al mantener la sensación de saciedad por más tiempo.</li>
+                <li>Ideal para aquellos que tienen dificultades para alcanzar sus requerimientos diarios de proteínas a través de la alimentación, o para aquellos que necesitan una fuente rápida y conveniente de proteínas.</li>
+              </ol></td>
+        </tr>
+
+        <tr>
+            <td>Creatina</td>
+            <td><ul>
+                <li>Compuesto orgánico que se encuentra naturalmente en el cuerpo humano, especialmente en los músculos esqueléticos.</li>
+              </ul></td>
+            <td><ul>
+                <li>Se presenta en forma de polvo o pastillas.</li>
+                <li>Es un suplemento muy popular entre los atletas y culturistas.</li>
+              </ul></td>
+            <td><ol>
+                <li>Aumenta la fuerza y la potencia muscular, mejora la capacidad de entrenamiento de alta intensidad y acelera la recuperación muscular.</li>
+                <li>Puede tener efectos positivos en el cerebro y la memoria.</li>
+                <li>Suplemento seguro y eficaz, pero es importante seguir las instrucciones de dosificación y beber suficiente agua para evitar la deshidratación.</li>
+              </ol></td>
+        </tr>
+
+        <tr>
+            <td>BCAA (Aminoacidos de cadena ramificada)</td>
+            <td><ul>
+                <li>Grupo de aminoácidos esenciales que el cuerpo no puede producir por sí solo y deben obtenerse a través de la dieta o los suplementos.</li>
+              </ul></td>
+            <td><ul>
+                <li>Se encuentran en forma de polvo o cápsulas.</li>
+                <li>Son especialmente útiles antes o después del ejercicio.</li>
+              </ul></td>
+            <td><ol>
+                <li>Mejoran la síntesis de proteínas, promueven la recuperación muscular después del ejercicio y reducen la fatiga muscular durante el ejercicio prolongado.</li>
+                <li> Pueden ser útiles para aquellos que realizan entrenamientos de alta intensidad o de larga duración, o para aquellos que siguen una dieta baja en proteínas.</li>
+              </ol></td>
+        </tr>
+
+        <tr>
+            <td>Cafeina</td>
+            <td><ul>
+                <li>Estimulante del sistema nervioso central que se encuentra en el café, el té, el chocolate y muchos suplementos dietéticos.</li>
+              </ul></td>
+            <td><ul>
+                <li>Se presenta en forma de polvo, cápsulas o tabletas. </li>
+                <li>Es un suplemento muy popular entre los atletas y culturistas.</li>
+              </ul></td>
+            <td><ol>
+                <li> Aumenta la energía, la concentración y la resistencia durante el ejercicio. </li>
+                <li>Puede mejorar el metabolismo y la quema de grasas.</li>
+                <li>Suplemento seguro y efectivo, pero es importante seguir las instrucciones de dosificación y evitar su consumo excesivo.</li>
+              </ol></td>
+        </tr>
+    </table>
+        <br><br><br>
+    <form class="form-group">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="sexo">Sexo:</label>
+        <select id="estado-civil" name="estado-civil">
+          <option value="Mujer">Mujer</option>
+          <option value="hombre">Hombre</option>
+          <option value="otro">Otro</option>
+        </select>
+        <br>
+        <label>
+          <input type="checkbox" name="newsletter" value="si">
+          Deseo recibir el newsletter.
+        </label>
+        <br>
+        <label for="comentarios">Comentarios:</label>
+        <textarea id="comentarios" name="comentarios"></textarea>
+        <br>
+        <button type="submit">Enviar</button>
+      </form>
+      
+</body>
+</html>
